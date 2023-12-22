@@ -1,6 +1,6 @@
 const form = document.getElementById('form-calculadora')
-const aprovado = `<img src="./images/aprovado.png alt="Emoji animado" />`
-const reprovado = `<img src="./images/reprovado.png alt="Emoji animado" />`
+const aprovado = `<img src="./images/aprovado.png" alt="Emoji animado" />`
+const reprovado = `<img src="./images/reprovado.png" alt="Emoji animado" />`
 let linhas = ''
 
 form.addEventListener('submit', function(e) {
