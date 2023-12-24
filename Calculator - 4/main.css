@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(173, 107, 173);
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    padding: 50px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    padding: 6px;
+    
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: rgb(126, 197, 126);
+    transition: 1s;
+}

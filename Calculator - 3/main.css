@@ -78,3 +78,11 @@ table td img {
 table tbody td {
     padding: 20px;
 }
+
+.aprovado {
+    background: green;
+}
+
+.reprovado {
+    background: red;
+}
